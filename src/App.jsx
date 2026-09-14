@@ -9,6 +9,7 @@ import Committee from "./pages/Committee";
 import Mission from "./pages/Mission";
 import Memories from "./pages/Memories";
 import Proposal from "./pages/Proposal";
+import Election from "./pages/Election";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
           <Route path="/memories" element={<Memories />} />
           {/* Proposal */}
           <Route path="/proposal" element={<Proposal />} />
+          {/* Election */}
+          <Route path="/election" element={<Election />} />
         </Route>
       </Route>
 
