@@ -10,6 +10,8 @@ import Mission from "./pages/Mission";
 import Memories from "./pages/Memories";
 import Proposal from "./pages/Proposal";
 import Election from "./pages/Election";
+import Profile from "./pages/Profile";
+import UploadMemory from "./pages/UploadMemory";
 
 function App() {
   return (
@@ -37,6 +39,10 @@ function App() {
           <Route path="/proposal" element={<Proposal />} />
           {/* Election */}
           <Route path="/election" element={<Election />} />
+          {/* Profile */}
+          <Route path="/profile" element={<Profile />} />
+          {/* Upload Memory */}
+          <Route path="/upload-memory" element={<UploadMemory />} />
         </Route>
       </Route>
 
